@@ -2,7 +2,9 @@
 
 # MyList
 DOMAIN-SUFFIX,toalan.com
-DOMAIN-SUFFIX,hsbc.com
+
+# 海外需直连
+DOMAIN-KEYWORD,hsbc.com
 
 
 
