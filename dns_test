@@ -80,13 +80,14 @@ custom_proxy_group=🇯🇵 日本节点`url-test`(日本|川日|东京|大阪|�
 custom_proxy_group:
   - name: 🇸🇬 负载均衡1
     type: load-balance
+    strategy: consistent-hashing
     proxies:
       - 新加坡01
       - Singapore
     url: http://cp.cloudflare.com/generate_204
     interval: 300
-    strategy: consistent-hashing
     tolerance: 50
+
 custom_proxy_group=🇸🇬 负载均衡2`load-balance`(新加坡02|Singapore)`http://cp.cloudflare.com/generate_204`300,,50
 custom_proxy_group=🇸🇬 新加坡节点`url-test`(新加坡|坡|狮城|SG|Singapore)`http://cp.cloudflare.com/generate_204`300,,50
 custom_proxy_group=🇹🇼 台湾节点`url-test`(台|新北|彰化|TW|Taiwan)`http://cp.cloudflare.com/generate_204`300,,50
