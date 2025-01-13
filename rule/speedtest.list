@@ -1,0 +1,7 @@
+# 内容：网站测速网站
+# 域名关键字匹配
+
+# 域名后缀匹配
+DOMAIN-SUFFIX,fast.com
+DOMAIN-SUFFIX,speedtest.net
+DOMAIN-SUFFIX,speed.cloudflare.com
